@@ -1,0 +1,22 @@
+.articles-container{
+    grid-template-columns: 1fr
+}
+
+.footer-container{
+    grid-template-columns: 1fr
+}
+
+.footer-container > *:last-child {
+    grid-column: 1 /span 1;
+}
+
+.footer-container form input,
+.footer-container a {
+    width: 100%;
+}
+
+
+
+.page-container{
+    grid-template-columns: 1fr;
+}
